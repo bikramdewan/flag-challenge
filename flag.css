@@ -1,0 +1,39 @@
+.flag {
+  width: 500px;
+  height: 300px;
+}
+.flag__block {
+  width: 500px;
+  height: 33.33%;
+}
+.flag__block:nth-child(1) {
+  background-color: black;
+}
+.flag__block:nth-child(2) {
+  background-color: gold;
+}
+.flag__block:nth-child(3) {
+  background-color: red;
+}
+@media (max-width: 599px) {
+  .flag__block {
+    height: 130px;
+    width: 200px;
+  }
+}
+@media (max-width: 1023px) {
+  .flag {
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1024px) {
+  .flag__block {
+    width: 100%;
+    height: 33.333%;
+  }
+}
+
+/*# sourceMappingURL=flag.css.map */
