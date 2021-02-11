@@ -9,12 +9,14 @@
         &:nth-child(1) {
           background-color: black;
         }
-        &:nth-child(2){
-          background-color: gold;
-        }
+      
         &:nth-child(3) {
           background-color: red;
         }
+        
+        &:nth-child(2){
+            background-color: gold;
+          }
       }
 
     @media (max-width: 599px) {

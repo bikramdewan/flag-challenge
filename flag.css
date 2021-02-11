@@ -9,11 +9,11 @@
 .flag__block:nth-child(1) {
   background-color: black;
 }
-.flag__block:nth-child(2) {
-  background-color: gold;
-}
 .flag__block:nth-child(3) {
   background-color: red;
+}
+.flag__block:nth-child(2) {
+  background-color: gold;
 }
 @media (max-width: 599px) {
   .flag__block {
@@ -26,7 +26,6 @@
     display: flex;
     width: 33.33%;
     height: 100%;
-    justify-content: space-around;
   }
 }
 @media (min-width: 1024px) {
